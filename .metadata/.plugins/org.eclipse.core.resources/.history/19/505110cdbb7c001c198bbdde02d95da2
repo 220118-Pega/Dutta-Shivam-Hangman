@@ -1,0 +1,15 @@
+package com.revature.hangman;
+
+import java.util.Scanner;
+
+public class Driver {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner myScanner = new Scanner(System.in);
+		System.out.println("Enter word to be guessed: ");
+		String mysteryWord = myScanner.nextLine();
+		System.out.println("The mystery word is:  "+mysteryWord);
+	}
+
+}
